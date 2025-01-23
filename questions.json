@@ -1,0 +1,267 @@
+{
+    "Linux": [
+        {
+            "question": "Which command is used to view running processes in Linux?",
+            "options": ["ps", "ls", "chmod"],
+            "answer": "1"
+        },
+        {
+            "question": "What does the `chmod 755` command do?",
+            "options": [
+                "Grants read, write, and execute permissions to the owner; read and execute to others",
+                "Changes file ownership to root",
+                "Lists file permissions"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What does the `grep` command do?",
+            "options": [
+                "Finds and filters lines matching a pattern in files",
+                "Deletes files",
+                "Creates a new directory"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which command is used to compress files in Linux?",
+            "options": ["tar", "gzip", "cp"],
+            "answer": "2"
+        },
+        {
+            "question": "What does the `/etc` directory usually contain?",
+            "options": [
+                "System configuration files",
+                "User home directories",
+                "Temporary files"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which command is used to display the last few lines of a file?",
+            "options": ["tail", "head", "cat"],
+            "answer": "1"
+        },
+        {
+            "question": "What does the `df -h` command display?",
+            "options": [
+                "Disk space usage in human-readable format",
+                "Directory tree structure",
+                "Device driver information"
+            ],
+            "answer": "1"
+        }
+    ],
+    "Python": [
+        {
+            "question": "What is the output of `len(set([1, 2, 2, 3]))`?",
+            "options": ["3", "4", "2"],
+            "answer": "1"
+        },
+        {
+            "question": "Which of the following is a valid way to handle exceptions in Python?",
+            "options": [
+                "try-except",
+                "catch-finally",
+                "try-catch"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the result of `[x**2 for x in range(3)]`?",
+            "options": ["[0, 1, 4]", "[1, 4, 9]", "[0, 2, 4]"],
+            "answer": "1"
+        },
+        {
+            "question": "What does the `self` keyword represent in a Python class?",
+            "options": [
+                "The instance of the class",
+                "A global variable",
+                "A class attribute"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the time complexity of searching for an item in a dictionary?",
+            "options": ["O(1)", "O(n)", "O(log n)"],
+            "answer": "1"
+        },
+        {
+            "question": "Which function is used to serialize an object in Python?",
+            "options": ["pickle.dump", "json.load", "open.write"],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of Python's `@staticmethod` decorator?",
+            "options": [
+                "Defines a method that doesn't access instance or class data",
+                "Defines a private method",
+                "Defines a class method"
+            ],
+            "answer": "1"
+        }
+    ],
+    "AI": [
+        {
+            "question": "Which algorithm is commonly used for supervised learning?",
+            "options": [
+                "Linear regression",
+                "K-means clustering",
+                "Apriori"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of an activation function in neural networks?",
+            "options": [
+                "To introduce non-linearity",
+                "To initialize weights",
+                "To normalize inputs"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which of the following is a type of unsupervised learning?",
+            "options": [
+                "Clustering",
+                "Logistic regression",
+                "Decision tree"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the name of the algorithm used in the backpropagation process?",
+            "options": [
+                "Gradient descent",
+                "Monte Carlo",
+                "Support vector machine"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is overfitting in machine learning?",
+            "options": [
+                "A model performs well on training data but poorly on test data",
+                "A model that doesn't learn the training data",
+                "A model that has high bias and low variance"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of dropout in neural networks?",
+            "options": [
+                "To prevent overfitting",
+                "To increase the size of the training data",
+                "To speed up computation"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which term refers to training a model using labeled data?",
+            "options": [
+                "Supervised learning",
+                "Unsupervised learning",
+                "Reinforcement learning"
+            ],
+            "answer": "1"
+        }
+    ],
+    "HTML/CSS": [
+        {
+            "question": "Which HTML tag is used to define an internal style sheet?",
+            "options": ["<style>", "<css>", "<script>"],
+            "answer": "1"
+        },
+        {
+            "question": "What does the `z-index` property in CSS do?",
+            "options": [
+                "Specifies the stacking order of elements",
+                "Sets the zoom level of the page",
+                "Defines the indentation of text"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which HTML attribute is used to specify an inline style?",
+            "options": ["style", "class", "id"],
+            "answer": "1"
+        },
+        {
+            "question": "What is the correct syntax to link an external CSS file in HTML?",
+            "options": [
+                "<link rel='stylesheet' href='styles.css'>",
+                "<style src='styles.css'>",
+                "<css link='styles.css'>"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which CSS property is used to change the background color?",
+            "options": ["background-color", "color", "bgcolor"],
+            "answer": "1"
+        },
+        {
+            "question": "Which CSS property is used to make text bold?",
+            "options": ["font-weight", "font-bold", "text-style"],
+            "answer": "1"
+        },
+        {
+            "question": "What is the default position value in CSS?",
+            "options": ["static", "relative", "absolute"],
+            "answer": "1"
+        }
+    ],
+    "Node.js": [
+        {
+            "question": "What is Node.js primarily used for?",
+            "options": [
+                "Server-side scripting",
+                "Front-end development",
+                "Database management"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which module is used to handle file system operations in Node.js?",
+            "options": ["fs", "http", "path"],
+            "answer": "1"
+        },
+        {
+            "question": "Which of the following is a core module in Node.js?",
+            "options": ["http", "express", "react"],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of `npm` in Node.js?",
+            "options": [
+                "To manage packages and dependencies",
+                "To create HTTP servers",
+                "To compile JavaScript code"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What does the `require` function do in Node.js?",
+            "options": [
+                "Imports modules",
+                "Defines variables",
+                "Executes HTTP requests"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which of the following is true about Node.js?",
+            "options": [
+                "It uses an event-driven, non-blocking I/O model",
+                "It is a front-end JavaScript framework",
+                "It runs on the client side only"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Which method is used to read a file in Node.js synchronously?",
+            "options": ["fs.readFileSync", "fs.read", "fs.readFile"],
+            "answer": "1"
+        }
+    ]
+}
